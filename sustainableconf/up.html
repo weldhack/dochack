@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Webマニュアル SustainableConf アップロード</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>アップロード</h1>
+    <h2>USBのファイルをサーバにコピーします。</h2>
+    <video id="video">
+        <source src="./video/up.mp4" type="video/mp4">
+    </video>
+    <div class="buttonBlock">
+        <span><button type="button" onClick="playVideo();">▶︎</button></span>
+        <span><button type="button" onClick="pauseVideo();">Ⅱ</button></span>
+    </div>
+    <p id="comment" class="comment"></p>
+    <h2>設定項目</h2>
+    <ul>
+        <li>サーバフォルダ
+            <ul>
+                <li>溜め込む先のサーバの共有フォルダを指定します</li>
+            </ul>
+        </li>
+        <li>入力フォルダ
+            <ul>
+                <li>設定をサーバにアップロードする際の読み込み元を指定します</li>
+            </ul>
+        </li>
+        <li>出力フォルダ
+            <ul>
+                <li>設定をサーバからダウンロードする際の書き込み先を指定します</li>
+            </ul>
+        </li>
+    </ul>
+    <script src="./js/js.js"></script>
+</body>
+</html>
